@@ -14,6 +14,11 @@ with open(FileName, "wb") as localFile:
 
 webFile.close()
 
+#Качает файл по ссылке:
+urllib.request.urlretrieve('https://meduza.io','meduza1.html')
+
+
+
 
 from xml.dom import minidom
 
